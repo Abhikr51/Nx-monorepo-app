@@ -1,0 +1,31 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/nxapp-e2e"
+    },
+    {
+      "path": "./apps/nxapp"
+    },
+    {
+      "path": "./apps/graphite-e2e"
+    },
+    {
+      "path": "./apps/graphite"
+    },
+    {
+      "path": "./apps/refdata-e2e"
+    },
+    {
+      "path": "./apps/refdata"
+    },
+    {
+      "path": "./apps/reports-e2e"
+    },
+    {
+      "path": "./apps/reports"
+    }
+  ]
+}

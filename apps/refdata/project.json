@@ -1,0 +1,87 @@
+{
+  "name": "refdata",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/refdata/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/rspack:rspack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "apps/refdata/dist",
+        "index": "apps/refdata/src/index.html",
+        "baseHref": "/",
+        "main": "apps/refdata/src/main.ts",
+        "tsConfig": "apps/refdata/tsconfig.app.json",
+        "assets": ["apps/refdata/src/favicon.ico", "apps/refdata/src/assets"],
+        "rspackConfig": "apps/refdata/rspack.config.ts",
+        "styles": ["apps/refdata/src/styles.tailwind"],
+        "scripts": [],
+        "configurations": {
+          "development": {
+            "mode": "development"
+          },
+          "production": {
+            "mode": "production",
+            "optimization": true,
+            "sourceMap": false,
+            "outputHashing": "all",
+            "namedChunks": false,
+            "extractLicenses": true,
+            "vendorChunk": false
+          }
+        },
+        "target": "web"
+      },
+      "configurations": {
+        "production": {
+          "rspackConfig": "apps/refdata/rspack.config.prod.ts"
+        }
+      },
+      "dependsOn": ["^build", "typecheck"]
+    },
+    "serve": {
+      "executor": "@nx/rspack:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "refdata:build",
+        "hmr": true,
+        "port": 4201
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "refdata:build:development"
+        },
+        "production": {
+          "buildTarget": "refdata:build:production",
+          "hmr": false
+        }
+      },
+      "dependsOn": ["typecheck"]
+    },
+    "serve-static": {
+      "executor": "@nx/rspack:module-federation-static-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "serveTarget": "refdata:serve"
+      },
+      "configurations": {
+        "development": {
+          "serveTarget": "refdata:serve:development"
+        },
+        "production": {
+          "serveTarget": "refdata:serve:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{projectRoot}/test-output/jest/coverage"],
+      "options": {
+        "jestConfig": "apps/refdata/jest.config.ts"
+      }
+    }
+  }
+}
