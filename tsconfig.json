@@ -26,6 +26,9 @@
     },
     {
       "path": "./apps/reports"
+    },
+    {
+      "path": "./libs/dynotrace"
     }
   ]
 }

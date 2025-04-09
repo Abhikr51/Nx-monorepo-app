@@ -31,10 +31,13 @@
   "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
   "references": [
     {
+      "path": "../reports/tsconfig.app.json"
+    },
+    {
       "path": "../refdata/tsconfig.app.json"
     },
     {
-      "path": "../reports/tsconfig.app.json"
+      "path": "../../libs/dynotrace/tsconfig.lib.json"
     }
   ]
 }
