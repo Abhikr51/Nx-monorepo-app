@@ -1,15 +1,10 @@
 {
+  "extends": "../../../tsconfig.base.json",
   "files": [],
   "include": [],
   "references": [
     {
-      "path": "../reports"
-    },
-    {
-      "path": "../refdata"
-    },
-    {
-      "path": "../../libs/logger-utils"
+      "path": "../../logger-utils"
     },
     {
       "path": "./tsconfig.app.json"
@@ -17,6 +12,5 @@
     {
       "path": "./tsconfig.spec.json"
     }
-  ],
-  "extends": "../../tsconfig.base.json"
+  ]
 }

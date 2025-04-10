@@ -1,25 +1,34 @@
 import * as React from 'react';
 import NxWelcome from './nx-welcome';
 import { Link, Route, Routes } from 'react-router-dom';
+// import { eventBus } from '@org/logger-utils';
 const Refdata = React.lazy(() => import('refdata/Module'));
 const Reports = React.lazy(() => import('reports/Module'));
-import {testFunc} from "@org/dynotrace";
-
+import {sendLog} from "@org/logger-utils";
 export function App() {
 
-  const generateError = ()=>{
-    console.log('Test' , testFunc('Test'));
+  const  generateLog = ()=>{
+    console.log('Test' , sendLog('USER_LOGGED' , { eventName: 'click', message : "Hi this is a test log message" }));
     console.log('dtrum is defined',window.dtrum);
   }
   // React.useEffect(() => {
-  //   fetch("https://jsonplaceholder.typicode.com/todos")
-  //           .then(response => {
-  //               return response.json();
-  //           })
-  //           .then(data => {
-  //           })
-  //           .catch(error => {});
+  //   // Subscribe to events from Node MFE
+  //   const subscription = eventBus.on('NODE_MESSAGE').subscribe(data => {
+  //     console.log('Message received from Node MFE:', data);
+  //   });
+    
+  //   // Clean up subscription
+  //   return () => subscription.unsubscribe();
   // }, []);
+  
+  // const sendMessageToNode = () => {
+  //   // Emit event to Node MFE
+  //   console.log('Sending message to Node MFE');
+  //   eventBus.emit('REACT_MESSAGE', { 
+  //     message: 'Hello from React!',
+  //     timestamp: new Date().toISOString()
+  //   });
+  // };
   return (
     <React.Suspense fallback={null}>
       <ul>
@@ -33,7 +42,7 @@ export function App() {
           <Link to="/reports">Reports</Link>
         </li>
       </ul>
-      <button onClick={generateError}>Generate Error</button>
+      <button onClick={generateLog}>Generate Log</button>
       <Routes>
         <Route path="/" element={<NxWelcome title="@org/graphite" />} />
         <Route path="/refdata" element={<Refdata />} />

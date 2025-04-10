@@ -29,6 +29,15 @@
     },
     {
       "path": "./libs/dynotrace"
+    },
+    {
+      "path": "./libs/logger/node-logger-e2e"
+    },
+    {
+      "path": "./libs/logger/node-logger"
+    },
+    {
+      "path": "./libs/logger-utils"
     }
   ]
 }

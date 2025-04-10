@@ -1,0 +1,54 @@
+[2025-04-09T08:16:58.701Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T08:22:42.895Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T08:22:49.853Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T08:22:49.854Z] [[32minfo[39m] User selected from MFE: undefined (ID: undefined)
+[2025-04-09T08:26:20.200Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T08:26:22.792Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T08:26:22.792Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T08:26:50.836Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T08:26:50.837Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T08:31:29.688Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T08:31:29.689Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T09:47:45.327Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T09:47:45.328Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T09:52:56.404Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T09:53:04.012Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T09:53:18.859Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T09:55:15.053Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T10:03:32.510Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:03:32.510Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:07:54.700Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:07:54.701Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:52.135Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:52.135Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:52.299Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:52.300Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:52.464Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:52.465Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:52.614Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:52.614Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:52.762Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:52.762Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:52.895Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:52.895Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:53.029Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:53.029Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:53.178Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:53.178Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:53.345Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:53.345Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:53.494Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:53.494Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:08:53.629Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:08:53.629Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:21:58.652Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:21:58.653Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T10:22:20.414Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-09T10:22:20.415Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-09T11:08:48.201Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T11:11:21.951Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T11:12:01.646Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T11:12:04.660Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T11:12:59.265Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-09T11:18:51.412Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-10T06:27:18.727Z] [[32minfo[39m] Server listening on http://localhost:3000
