@@ -6,8 +6,13 @@
   "private": true,
   "dependencies": {
     "@dynatrace/dtrum-api-types": "^1.307.0",
+    "@fontsource/open-sans": "^5.2.5",
+    "@fontsource/pt-mono": "^5.2.5",
     "@react-router/node": "^7.2.0",
     "@react-router/serve": "^7.2.0",
+    "@salt-ds/core": "^1.43.0",
+    "@salt-ds/icons": "^1.13.2",
+    "@salt-ds/theme": "^1.28.1",
     "axios": "^1.6.0",
     "express": "^4.21.2",
     "isbot": "^4.4.0",
@@ -92,6 +97,7 @@
   "workspaces": [
     "apps/*",
     "libs/*",
-    "libs/logger/*"
+    "libs/logger/*",
+    "libs/shared/*"
   ]
 }

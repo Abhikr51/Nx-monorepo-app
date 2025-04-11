@@ -6,7 +6,7 @@ export async function sendLog<T>(type: string, payload: T) {
       type,
       payload,
     }),
-  });
+  }).catch((err)=>console.log(err));
 }
 
 

@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../libs/shared/saltDS"
+    },
+    {
       "path": "./tsconfig.app.json"
     },
     {

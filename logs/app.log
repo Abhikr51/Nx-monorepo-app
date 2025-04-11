@@ -52,3 +52,48 @@
 [2025-04-09T11:12:59.265Z] [[32minfo[39m] Server listening on http://localhost:3000
 [2025-04-09T11:18:51.412Z] [[32minfo[39m] Server listening on http://localhost:3000
 [2025-04-10T06:27:18.727Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-10T09:44:48.600Z] [[32minfo[39m] Server listening on http://localhost:3000
+[2025-04-10T09:44:53.736Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:53.736Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:54.324Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:54.325Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:54.630Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:54.630Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:54.771Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:54.772Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:54.914Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:54.914Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:55.059Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:55.060Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:55.209Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:55.209Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:55.347Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:55.348Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:55.467Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:55.467Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:55.616Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:55.616Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:55.760Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:55.760Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:55.915Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:55.915Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:56.092Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:56.092Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:56.279Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:56.280Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:56.420Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:56.421Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:56.586Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:56.586Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:56.754Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:56.754Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:44:56.965Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:44:56.965Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:49:40.787Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:49:40.787Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:50:33.781Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:50:33.782Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:50:42.712Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:50:42.712Z] [[32minfo[39m] Hi this is a test log message
+[2025-04-10T09:52:08.926Z] [[34mdebug[39m] Received event: USER_LOGGED
+[2025-04-10T09:52:08.927Z] [[32minfo[39m] Hi this is a test log message

@@ -38,6 +38,9 @@
     },
     {
       "path": "./libs/logger-utils"
+    },
+    {
+      "path": "./libs/shared/saltDS"
     }
   ]
 }
